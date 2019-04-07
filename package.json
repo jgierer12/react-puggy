@@ -1,6 +1,6 @@
 {
   "name": "react-puggy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "Tiny library for named slots in React",
   "keywords": [
