@@ -17,7 +17,7 @@
   "scripts": {
     "build": "pack build",
     "develop": "run-s test:js -- --watch",
-    "publish": "np --contents pkg",
+    "publish": "pack publish",
     "test": "run-s lint test:js",
     "test:js": "jest",
     "format": "run-p --print-label format:*",
@@ -60,7 +60,6 @@
     "eslint": "^5.16.0",
     "jest": "^24.7.1",
     "jest-dom": "^3.1.3",
-    "np": "^4.0.2",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.16.4",
     "react": "^16.8.6",
